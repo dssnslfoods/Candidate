@@ -1,0 +1,302 @@
+[
+  {
+    "qid": 1,
+    "section": "Food Safety",
+    "questionTH": "ในโรงงานเบเกอรี่ที่ได้การรับรอง GMP/HACCP ขั้นตอนการกำหนด Critical Control Point (CCP) ของกระบวนการอบ ควรพิจารณาจากปัจจัยใดเป็นหลัก?",
+    "choices": {
+      "A": "ความสะดวกของพนักงานในการตรวจสอบ",
+      "B": "อุณหภูมิและเวลา (Time-Temperature) ที่ทำลายเชื้อก่อโรคได้อย่างมีประสิทธิภาพ",
+      "C": "ขนาดของเตาอบและกำลังการผลิต",
+      "D": "ราคาของเซ็นเซอร์วัดอุณหภูมิที่ติดตั้ง"
+    },
+    "correct": "B",
+    "explanationTH": "CCP ของขั้นตอนอบในเบเกอรี่กำหนดจาก Time-Temperature ที่พิสูจน์ได้ว่าทำลาย Salmonella, E.coli, Listeria ได้ตามเกณฑ์ความปลอดภัย ปัจจัยอื่นเป็นเรื่อง operational ไม่ใช่ food safety control",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 2,
+    "section": "Food Safety",
+    "questionTH": "สารก่อภูมิแพ้ (Allergen) ที่พบบ่อยที่สุดในผลิตภัณฑ์เบเกอรี่ และต้องมีระบบ allergen management ที่เข้มงวดคืออะไร?",
+    "choices": {
+      "A": "เกลือ น้ำตาล สีผสมอาหาร",
+      "B": "วัตถุกันเสียและสารกันเชื้อรา",
+      "C": "ข้าวสาลี (gluten), ไข่, นม, ถั่วเหลือง, ถั่วลิสง",
+      "D": "ผงฟูและยีสต์"
+    },
+    "correct": "C",
+    "explanationTH": "Big-8 Allergens ที่ต้องประกาศบนฉลากตามมาตรฐานสากลและไทยคือ: ข้าวสาลี/gluten, ไข่, นม, ถั่วเหลือง, ถั่วลิสง, นัทเปลือกแข็ง, ปลา, สัตว์น้ำเปลือกแข็ง — เบเกอรี่มี 4-5 ตัวจากกลุ่มนี้",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 3,
+    "section": "Food Safety",
+    "questionTH": "หากตรวจพบเศษโลหะ (metal fragment) จาก metal detector ที่ปลายไลน์ผลิตขนมปัง สิ่งแรกที่ Factory Manager ควรสั่งให้ทำคืออะไร?",
+    "choices": {
+      "A": "Hold lot ทั้งหมดที่ผลิตหลัง verification ครั้งล่าสุด แล้วเริ่ม root cause investigation",
+      "B": "ทิ้งเฉพาะชิ้นที่ตรวจเจอ แล้วเดินสายการผลิตต่อ",
+      "C": "หยุดเฉพาะ metal detector เพื่อ recalibrate",
+      "D": "แจ้งฝ่าย QA ให้บันทึกและรอประชุมพรุ่งนี้"
+    },
+    "correct": "A",
+    "explanationTH": "ตามหลัก HACCP เมื่อ CCP fail ต้อง hold ผลิตภัณฑ์ทั้งหมดในช่วงเวลาที่ control ไม่สามารถยืนยันได้ (จาก verification ครั้งสุดท้ายที่ผ่าน) แล้ว investigate root cause ก่อนปล่อยสินค้า",
+    "difficulty": "Hard",
+    "weight": 3
+  },
+  {
+    "qid": 4,
+    "section": "Food Safety",
+    "questionTH": "Shelf life ของขนมปังแซนวิช (high-moisture, no preservative) ที่บรรจุในถุง MAP โดยทั่วไปอยู่ที่ประมาณเท่าใด ก่อนเริ่มมีปัญหา mold growth?",
+    "choices": {
+      "A": "1-2 วัน",
+      "B": "5-7 วัน",
+      "C": "14-21 วัน",
+      "D": "30-45 วัน"
+    },
+    "correct": "B",
+    "explanationTH": "ขนมปัง high aw (~0.94-0.96) ไม่ใส่สารกันบูด แม้ packaging แบบ MAP จะช่วยยืดได้บ้าง แต่ shelf life โดยทั่วไปอยู่ที่ 5-7 วันก่อนเสี่ยงต่อ mold (Aspergillus, Penicillium)",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 5,
+    "section": "Bakery Tech",
+    "questionTH": "ในการทำขนมปังแบบ sponge & dough ขั้นตอน sponge fermentation มีบทบาทสำคัญอย่างไรต่อคุณภาพขนมปังสุดท้าย?",
+    "choices": {
+      "A": "เพิ่มความหวานของขนมปัง",
+      "B": "ทำให้สีเปลือกขนมปังเข้มขึ้นเท่านั้น",
+      "C": "พัฒนา flavor, gluten structure และ extensibility ของแป้งโด",
+      "D": "ลดต้นทุนยีสต์ลง 50%"
+    },
+    "correct": "C",
+    "explanationTH": "Sponge stage (4-16 ชม.) ทำให้ยีสต์และเอนไซม์ทำงาน สร้าง organic acids, alcohols, esters ที่เป็น flavor precursors และ pre-hydration ของแป้งช่วย gluten development",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 6,
+    "section": "Bakery Tech",
+    "questionTH": "ค่า protein content ของแป้งสาลีที่เหมาะสมที่สุดสำหรับการทำ pan bread (ขนมปังกล่อง) คือเท่าใด?",
+    "choices": {
+      "A": "8-9% (cake flour)",
+      "B": "10-11% (all-purpose)",
+      "C": "12-14% (bread flour, high gluten)",
+      "D": "16-18% (vital wheat gluten)"
+    },
+    "correct": "C",
+    "explanationTH": "Pan bread ต้องการ gluten network ที่แข็งแรงพอจะ retain gas และพยุงโครงสร้างหลังอบ ปกติใช้ bread flour 12-14% protein เพื่อให้ได้ volume และ texture ที่ดี",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 7,
+    "section": "Bakery Tech",
+    "questionTH": "หากขนมปังที่ผลิตวันนี้มีปัญหา crumb แน่น ไม่ฟู (low specific volume) สาเหตุที่ Factory Manager ควรสั่งตรวจเป็นอันดับแรกคืออะไร?",
+    "choices": {
+      "A": "อายุของยีสต์ และอุณหภูมิ proofing chamber",
+      "B": "สีของถุงบรรจุภัณฑ์",
+      "C": "จำนวนพนักงานในกะ",
+      "D": "ราคาน้ำมันที่ใช้"
+    },
+    "correct": "A",
+    "explanationTH": "Low volume เกิดจาก insufficient gas production (ยีสต์เก่า/ตาย, อุณหภูมิ proofing ต่ำเกิน) หรือ weak gluten ที่ retain ก๊าซไม่อยู่ — ตรวจ activity ของยีสต์และ proofing condition เป็นจุดแรกที่สมเหตุสมผล",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 8,
+    "section": "Bakery Tech",
+    "questionTH": "ปฏิกิริยา Maillard reaction ที่ทำให้เปลือกขนมปังเปลี่ยนเป็นสีน้ำตาลทอง เกิดขึ้นได้ดีที่สุดในช่วงอุณหภูมิและสภาวะใด?",
+    "choices": {
+      "A": "ต่ำกว่า 100°C ที่ความชื้นสูงมาก",
+      "B": "140-165°C ที่ผิวขนมปังมีน้ำตาลรีดิวซ์และกรดอะมิโน",
+      "C": "เกิน 250°C ในบรรยากาศที่ไม่มีออกซิเจน",
+      "D": "ที่อุณหภูมิห้องในระหว่าง resting"
+    },
+    "correct": "B",
+    "explanationTH": "Maillard reaction เริ่มเร่งที่ ~140°C เกิดระหว่างน้ำตาลรีดิวซ์กับกรดอะมิโน สร้างทั้งสีและ flavor compounds ของเปลือกขนมปัง — ต่างจาก caramelization ที่ต้องการอุณหภูมิสูงกว่า",
+    "difficulty": "Hard",
+    "weight": 3
+  },
+  {
+    "qid": 9,
+    "section": "Production Mgmt",
+    "questionTH": "OEE (Overall Equipment Effectiveness) ระดับ world-class สำหรับสายการผลิตแบบ continuous bakery อยู่ที่ประมาณเท่าใด?",
+    "choices": {
+      "A": "≥ 50%",
+      "B": "≥ 65%",
+      "C": "≥ 85%",
+      "D": "≥ 95%"
+    },
+    "correct": "C",
+    "explanationTH": "World-class OEE = 85% (Availability 90% × Performance 95% × Quality 99%) — โรงงานเบเกอรี่ส่วนใหญ่อยู่ที่ 60-75% และ 85% ถือเป็นเป้าหมาย world-class",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 10,
+    "section": "Production Mgmt",
+    "questionTH": "หากต้องวางแผนการผลิตขนมปัง 3 SKUs ในไลน์เดียวกัน หลัก sequencing ที่ลด changeover loss ได้ดีที่สุดคืออะไร?",
+    "choices": {
+      "A": "เรียงตามขนาด lot จากเล็กไปใหญ่",
+      "B": "เรียงตาม allergen profile (no-allergen → with-allergen) และ flavor intensity (อ่อน → เข้ม)",
+      "C": "เรียงตามตัวอักษรชื่อ SKU",
+      "D": "เรียงตามวันหมดอายุของวัตถุดิบ FIFO อย่างเดียว"
+    },
+    "correct": "B",
+    "explanationTH": "การ sequence จาก allergen-free → allergen-containing และ จาก mild → strong flavor ลด cleaning/sanitation cycle ระหว่าง changeover ได้มากที่สุด เป็น standard practice ของ bakery line",
+    "difficulty": "Hard",
+    "weight": 3
+  },
+  {
+    "qid": 11,
+    "section": "Production Mgmt",
+    "questionTH": "Yield loss ในกระบวนการผลิตขนมปังโดยทั่วไป (จากแป้งดิบ → finished product หลังตัดแต่ง) ที่ถือว่ายอมรับได้คือประมาณเท่าใด?",
+    "choices": {
+      "A": "0.5-1%",
+      "B": "2-4%",
+      "C": "8-12%",
+      "D": "20-25%"
+    },
+    "correct": "B",
+    "explanationTH": "Yield loss 2-4% (จากการระเหยน้ำใน baking, scrap จาก trimming, broken product) เป็น industry benchmark — สูงกว่า 5% ถือว่าต้อง improve",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 12,
+    "section": "Production Mgmt",
+    "questionTH": "ตัวชี้วัดใดที่ใช้ติดตาม consistency ของผลิตภัณฑ์เบเกอรี่ใน statistical process control (SPC) ได้ดีที่สุด?",
+    "choices": {
+      "A": "ราคาขายของผลิตภัณฑ์",
+      "B": "Cpk ของน้ำหนัก, dimensions และ color (L*, a*, b*)",
+      "C": "จำนวนพนักงานในไลน์",
+      "D": "ยอดขายรายเดือน"
+    },
+    "correct": "B",
+    "explanationTH": "SPC ใช้ Cpk (Process Capability Index) วัด physical attributes เช่น น้ำหนัก, ความสูงขนมปัง, ค่าสี Lab — Cpk ≥ 1.33 ถือว่า capable, ≥ 1.67 ถือว่า excellent",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 13,
+    "section": "Leadership",
+    "questionTH": "เมื่อพนักงานในกะกลางคืนเริ่มมีปัญหา absenteeism เพิ่มขึ้นอย่างต่อเนื่อง 3 เดือน Factory Manager ควรเริ่มด้วยวิธีใด?",
+    "choices": {
+      "A": "ออกประกาศตักเตือนและหักเงินเดือนทันที",
+      "B": "เก็บข้อมูล root cause (engagement survey, 1-on-1, exit interview) ก่อนตัดสินใจมาตรการ",
+      "C": "เพิ่ม OT บังคับให้คนที่มาทำงานชดเชย",
+      "D": "รอดูอีก 6 เดือน"
+    },
+    "correct": "B",
+    "explanationTH": "Leadership ที่ดีต้องเข้าใจ root cause ของปัญหา HR ก่อนตัดสินใจ — อาจเกิดจาก shift design, supervision style, transportation, family — มาตรการลงโทษโดยไม่เข้าใจสาเหตุยิ่งทำให้แย่",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 14,
+    "section": "Leadership",
+    "questionTH": "หลัก Gemba walk ที่ Factory Manager ควรทำเป็นประจำในโรงงานเบเกอรี่ มีจุดประสงค์หลักอะไร?",
+    "choices": {
+      "A": "ตรวจจับและลงโทษพนักงานที่ทำผิด",
+      "B": "ไปดูงานจริงที่หน้างาน เพื่อเข้าใจปัญหาและสนับสนุนทีมในการแก้ไข",
+      "C": "ลด workload ของ supervisor",
+      "D": "ทำเพื่อโชว์ลูกค้าที่มา audit เท่านั้น"
+    },
+    "correct": "B",
+    "explanationTH": "Gemba (現場 = สถานที่จริง) เป็นหลัก Lean ที่ผู้นำต้องไปดูงานจริงเพื่อเข้าใจ process และ pain points ของทีม — purpose คือ coach + remove blockers ไม่ใช่ inspection",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 15,
+    "section": "Leadership",
+    "questionTH": "ในการสื่อสาร KPI กับทีมระดับ operator ในโรงงาน วิธีไหนได้ผลดีที่สุดสำหรับ daily management?",
+    "choices": {
+      "A": "ส่ง email รายงานยาว 10 หน้าทุกวัน",
+      "B": "Visual board (SQDC: Safety, Quality, Delivery, Cost) ที่ shop floor พร้อม daily huddle 10-15 นาที",
+      "C": "ประชุม Zoom 2 ชั่วโมงทุกเช้า",
+      "D": "แจ้งใน LINE group เมื่อมีปัญหาเท่านั้น"
+    },
+    "correct": "B",
+    "explanationTH": "SQDC visual board + daily stand-up huddle เป็น standard practice ของ Lean manufacturing — operator เห็นเป้าหมายและผลงานแบบ real-time, problem แจ้งสด, action ตามกัน",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 16,
+    "section": "Leadership",
+    "questionTH": "Factory Manager ที่ดีควรใช้สัดส่วนเวลาส่วนใหญ่กับเรื่องใดในแต่ละสัปดาห์?",
+    "choices": {
+      "A": "นั่งทำรายงานในออฟฟิศ 80% ของเวลา",
+      "B": "เข้าประชุมกับ HQ อย่างเดียว",
+      "C": "Floor time, coaching ทีม, แก้ปัญหา cross-function (~50-60%) + planning + review (~30%) + admin (~10-20%)",
+      "D": "อยู่กับ supplier และลูกค้าภายนอก 100%"
+    },
+    "correct": "C",
+    "explanationTH": "Factory Manager ที่ effective แบ่งเวลาส่วนใหญ่ที่ shop floor และ coaching ทีม — ถ้าใช้เวลานั่งโต๊ะมากเกินไปจะ disconnect จาก operational reality",
+    "difficulty": "Hard",
+    "weight": 3
+  },
+  {
+    "qid": 17,
+    "section": "Cost & CI",
+    "questionTH": "ในต้นทุนการผลิตขนมปังเชิงอุตสาหกรรม สัดส่วนต้นทุนใดที่มักจะเป็นสัดส่วนที่ใหญ่ที่สุด?",
+    "choices": {
+      "A": "ค่าน้ำมันเชื้อเพลิงเตาอบ (energy)",
+      "B": "วัตถุดิบ (raw material — แป้ง, ยีสต์, น้ำตาล, ไขมัน, packaging)",
+      "C": "ค่าโฆษณาและ marketing",
+      "D": "ค่าซ่อมบำรุงเครื่องจักร"
+    },
+    "correct": "B",
+    "explanationTH": "Raw material + packaging มักเป็น 55-70% ของ COGS ในเบเกอรี่ — energy 5-10%, labor 10-15%, maintenance 3-5% — ดังนั้น CI จึงเริ่มที่ material yield และ formulation cost",
+    "difficulty": "Easy",
+    "weight": 1
+  },
+  {
+    "qid": 18,
+    "section": "Cost & CI",
+    "questionTH": "หากต้องการลดต้นทุนสายการผลิตเบเกอรี่ 5% ในปีหน้าโดยไม่กระทบคุณภาพ Continuous Improvement project ที่ควรพิจารณาเป็นอันดับแรกคืออะไร?",
+    "choices": {
+      "A": "เปลี่ยน supplier แป้งทั้งหมดเป็นเจ้าที่ถูกที่สุดทันที",
+      "B": "ทำ value stream mapping เพื่อหา waste (overproduction, waiting, defect, rework, motion) แล้ว Kaizen ที่ bottleneck",
+      "C": "ลดเงินเดือนพนักงาน 5%",
+      "D": "ตัดงบ training และ R&D"
+    },
+    "correct": "B",
+    "explanationTH": "VSM + Kaizen เป็นวิธีลด cost อย่างยั่งยืน — เห็น 7 wastes ของ Lean ในกระบวนการแล้ว focus ที่ bottleneck ก่อน — การลด supplier/พนักงาน/training มี short-term gain แต่ risk สูง",
+    "difficulty": "Medium",
+    "weight": 2
+  },
+  {
+    "qid": 19,
+    "section": "Cost & CI",
+    "questionTH": "Energy cost ของเตาอบ tunnel oven ในโรงงานเบเกอรี่ขนาดกลาง CI project ใดที่ payback เร็วที่สุดและทำได้ก่อน CAPEX investment?",
+    "choices": {
+      "A": "เปลี่ยนเตาอบใหม่ทั้งหมด (CAPEX 50 ล้านบาท)",
+      "B": "Heat recovery + insulation upgrade + optimize loading pattern + reduce empty oven time",
+      "C": "ปิดเตาอบทุกวันอาทิตย์",
+      "D": "เปลี่ยนแหล่งพลังงานเป็น solar 100% ทันที"
+    },
+    "correct": "B",
+    "explanationTH": "Quick win ทำได้โดยไม่ต้อง CAPEX สูง: insulation, heat recovery, loading optimization (เตาอบไม่ควรเดินเปล่า), schedule batching — payback ปกติ < 12 เดือน ก่อนพิจารณา CAPEX ใหญ่",
+    "difficulty": "Hard",
+    "weight": 3
+  },
+  {
+    "qid": 20,
+    "section": "Cost & CI",
+    "questionTH": "การวัด CI project success ที่ดีต้องมีองค์ประกอบใดครบถ้วน?",
+    "choices": {
+      "A": "ตัวเลข saving อย่างเดียว",
+      "B": "Baseline + target + actual saving (THB หรือ %) + sustainability check 3-6 เดือนหลังจบ project",
+      "C": "ความรู้สึกของหัวหน้างานว่าดีขึ้น",
+      "D": "จำนวนคนที่เข้าอบรม Kaizen"
+    },
+    "correct": "B",
+    "explanationTH": "CI ที่วัดผลได้ต้องมี baseline ก่อนทำ, target ชัดเจน, actual saving พิสูจน์ได้ และ sustainability check (ป้องกัน revert) — มิฉะนั้นจะนับว่า saving on paper เท่านั้น",
+    "difficulty": "Medium",
+    "weight": 2
+  }
+]

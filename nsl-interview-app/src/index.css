@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* NSL brand palette: Warm Berry + Gold accent on cream background. */
+@theme {
+  --font-sans: "Inter", "Sarabun", system-ui, sans-serif;
+  --font-thai: "Sarabun", "Inter", system-ui, sans-serif;
+
+  --color-cream-50: #fdfaf5;
+  --color-cream-100: #f8efe1;
+  --color-cream-200: #efe1c9;
+
+  --color-berry-50: #fdf2f4;
+  --color-berry-100: #fbe3e8;
+  --color-berry-200: #f5c1cd;
+  --color-berry-300: #ec92a8;
+  --color-berry-400: #de5f7e;
+  --color-berry-500: #c93962;
+  --color-berry-600: #a52450;
+  --color-berry-700: #851b42;
+  --color-berry-800: #6b1638;
+  --color-berry-900: #4a0e26;
+
+  --color-gold-50: #fbf6e9;
+  --color-gold-100: #f5e7bd;
+  --color-gold-200: #ecd286;
+  --color-gold-300: #e0b945;
+  --color-gold-400: #d4a017;
+  --color-gold-500: #b3850e;
+  --color-gold-600: #8c6707;
+
+  --color-ink-50: #f7f6f5;
+  --color-ink-100: #ecebe8;
+  --color-ink-200: #d6d4cf;
+  --color-ink-300: #b1aea7;
+  --color-ink-400: #807c74;
+  --color-ink-500: #524f49;
+  --color-ink-600: #36342f;
+  --color-ink-700: #25231f;
+  --color-ink-800: #18171410;
+  --color-ink-900: #0e0d0c;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(201, 57, 98, 0.08), transparent 60%),
+    radial-gradient(900px 500px at 110% 0%, rgba(212, 160, 23, 0.10), transparent 55%),
+    var(--color-cream-50);
+  color: var(--color-ink-700);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle scrollbar polish */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(82, 79, 73, 0.25);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(82, 79, 73, 0.45);
+}
