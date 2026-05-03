@@ -1,0 +1,32 @@
+{
+  "name": "NSL Foods · Factory Manager Interview",
+  "short_name": "NSL Interview",
+  "description": "Multiple-choice interview tool for Factory Manager (Bakery) candidates at NSL Foods PLC.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdfaf5",
+  "theme_color": "#a52450",
+  "lang": "th",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -58,6 +58,21 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* iOS safe-area: respect notch / home indicator when running in standalone PWA */
+#root {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Disable double-tap zoom on interactive elements while keeping pinch-zoom for content */
+button,
+[role='tab'],
+[role='button'] {
+  touch-action: manipulation;
+}
+
 /* Subtle scrollbar polish */
 ::-webkit-scrollbar {
   width: 10px;

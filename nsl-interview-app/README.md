@@ -14,10 +14,23 @@ lucide-react. Frontend-only — ไม่มี backend, ไม่ใช้ loca
 
 ```bash
 npm install
-npm run dev          # http://localhost:5173
+npm run dev          # http://localhost:5173 (also exposes on LAN for mobile)
 npm run build        # type-check + production bundle
 npm run gen:sample   # regenerate public xlsx template from src/data/sample.json
+npm run gen:icons    # rebuild PWA icons from scripts/icon.svg
 ```
+
+### Testing on iPhone / iPad
+
+แอปออกแบบ responsive 320px+ และตั้งค่าให้พร้อมเป็น PWA แล้ว
+
+1. รัน `npm run dev` ที่เครื่อง dev (Mac/PC ที่อยู่ Wi-Fi เดียวกับ iPhone)
+2. Vite จะพิมพ์ Network URL เช่น `http://192.168.x.x:5173/` — เปิดบน Safari
+3. แตะปุ่ม **Share → Add to Home Screen** → ได้ icon NSL บน Home Screen
+4. แอปจะรันแบบ standalone (ซ่อน browser chrome), respect safe area
+   (notch/home indicator) อัตโนมัติ
+
+> ถ้าอยู่ network คนละวง ใช้ `npx localtunnel --port 5173` หรือ `ngrok http 5173`
 
 ตอนเปิดครั้งแรก ระบบจะใช้ **Sample Data 20 ข้อ** ที่ติดตัวมาให้ (ดู
 `src/data/sample.json`) ผู้ใช้สามารถใช้งานได้ทันทีโดยไม่ต้องอัปโหลดไฟล์
