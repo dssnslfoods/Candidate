@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "gen:sample": "node scripts/generate-sample-xlsx.mjs",
-    "gen:icons": "node scripts/generate-icons.mjs"
+    "gen:icons": "node scripts/generate-icons.mjs",
+    "deploy": "npm run build && npx firebase-tools deploy --only hosting",
+    "deploy:preview": "npm run build && npx firebase-tools hosting:channel:deploy preview --expires 7d"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

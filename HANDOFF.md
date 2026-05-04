@@ -54,6 +54,15 @@ lucide-react + sharp (PNG generation)
 
 ### What's NOT done — see [`ROADMAP.md`](./ROADMAP.md) for full spec of 15 features
 
+### Deployment — see [`DEPLOY.md`](./DEPLOY.md)
+Firebase Hosting is wired up (`firebase.json` + `.firebaserc` + npm scripts).
+After filling in your Project ID and `npx firebase-tools login`, just run:
+
+```bash
+npm run deploy           # production
+npm run deploy:preview   # 7-day preview channel
+```
+
 ---
 
 ## 3. Where to make changes (file map cheatsheet)
